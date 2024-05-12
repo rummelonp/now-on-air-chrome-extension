@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "fmt": "npx prettier --write *.{js,json}"
+  }
+}

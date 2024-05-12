@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Now On Air",
+  "version": "0.0.1",
+  "description": "Google Meet を開いた/閉じた時に SwitchBot のデバイスを点けたり消したりします",
+  "background": { "service_worker": "worker.js" },
+  "host_permissions": ["*://api.switch-bot.com/*"],
+  "options_ui": { "page": "options.html", "open_in_tab": false },
+  "permissions": ["storage", "tabs"]
+}
